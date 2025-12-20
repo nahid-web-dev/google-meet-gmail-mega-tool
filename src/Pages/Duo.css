@@ -1,0 +1,57 @@
+.duo-user {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: rgb(43, 185, 204);
+}
+
+.duo-top-side {
+  height: 200px;
+}
+
+.duo-box {
+  background: linear-gradient(to bottom right, rgb(0, 183, 255), rgb(0, 38, 255));
+}
+
+.duo-user-icon {
+  width: 40px;
+  height: 40px;
+  color: white;
+}
+
+.call-icons li {
+  list-style-type: none;
+  height: 60px;
+  width: 60px;
+  background-color: rgb(197, 2, 2);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-icons li .call-icon {
+  font-size: 30px;
+}
+
+.call-icons li:first-child {
+  background-color: rgb(6, 218, 6);
+}
+
+.call-icons {
+  padding: 10px;
+  gap: 100px;
+  color: white;
+}
+
+@media (min-height: 600px) {
+  .duo-box {
+    padding-bottom: 100px;
+  }
+}
+
+@media (min-width: 400px) {
+  .call-icons {
+    gap: 140px;
+  }
+}

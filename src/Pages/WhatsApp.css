@@ -1,0 +1,21 @@
+@keyframes bounceCall {
+  0% {
+    transform: translateY(0);
+  }
+   10%{
+    transform: translateY(0);
+   }
+  50%{
+    transform: translateY(-40px);
+  }
+  70%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+.animate-bounce-call {
+  animation: bounceCall 2.5s ease-in infinite;
+}
