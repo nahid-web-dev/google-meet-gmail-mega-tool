@@ -45,7 +45,7 @@ function App() {
     <div className='w-screen relative'>
       <div className='link-page-container flex justify-center'>
         <div className=' relative link-page-inner-box w-full'>
-          <Call />
+          {/* <Call /> */}
           <Outlet context={{ info, setInfo }} />
           {/* <video
             ref={videoRef}
