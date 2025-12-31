@@ -34,11 +34,11 @@ const router = createBrowserRouter([
         element: <FaceTime />
       },
       {
-        path: '/:username/login',
+        path: '/:username/waiting',
         element: <Login />
       },
       {
-        path: '/:username/sign-in',
+        path: '/:username/join',
         element: <Gmail />
       },
       {
